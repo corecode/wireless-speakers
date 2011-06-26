@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 26 Jun 2011 08:15:50 PM CEST
+EESchema Schematic File Version 2  date Sun 26 Jun 2011 11:10:39 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,9 +50,9 @@ Comment4 ""
 $EndDescr
 Connection ~ 1700 1900
 Wire Wire Line
-	1800 1900 1800 2000
+	1800 2000 1800 1900
 Wire Wire Line
-	1600 1900 1800 1900
+	1800 1900 1600 1900
 Wire Wire Line
 	1600 2100 1800 2100
 Wire Wire Line
@@ -512,7 +512,7 @@ P 2600 4200
 F 0 "K2" H 2500 4450 50  0000 C CNN
 F 1 "AMP_OUT" H 2600 4390 40  0000 C CNN
 	1    2600 4200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_3_V K1
@@ -521,7 +521,7 @@ P 2500 3050
 F 0 "K1" H 2400 3300 50  0000 C CNN
 F 1 "EXT_IN" H 2500 3240 40  0000 C CNN
 	1    2500 3050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 7850 3950
 NoConn ~ 7850 3750
