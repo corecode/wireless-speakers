@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Mon 27 Jun 2011 01:14:10 AM CEST
+PCBNEW-BOARD Version 1 date Mon 27 Jun 2011 01:21:34 AM CEST
 
 # Created by Pcbnew(2011-06-17 BZR 13)-stable
 
@@ -35,7 +35,7 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 100
+TrackWidth 500
 TrackWidthList 100
 TrackWidthList 200
 TrackWidthList 500
@@ -62,7 +62,7 @@ PadSize 550 550
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 281051137) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 281051137) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 2) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -2992,6 +2992,10 @@ Po 0 102500 31750 100750 33500 100 -1
 De 15 0 14 0 0
 Po 0 102500 26250 102500 31750 100 -1
 De 15 0 14 0 0
+Po 0 99000 25850 99000 25500 100 -1
+De 0 0 15 0 800000
+Po 0 98500 26350 99000 25850 100 -1
+De 0 0 15 0 0
 Po 0 98500 26700 98500 26350 100 -1
 De 0 0 15 0 0
 Po 0 102800 29750 102300 29250 100 -1
@@ -3008,10 +3012,6 @@ Po 0 98800 27000 98525 26725 100 -1
 De 0 0 15 0 0
 Po 0 103000 29750 102800 29750 100 -1
 De 0 0 15 0 400000
-Po 0 99000 25850 99000 25500 100 -1
-De 0 0 15 0 800000
-Po 0 98500 26350 99000 25850 100 -1
-De 0 0 15 0 0
 Po 0 99000 25750 99000 25500 100 -1
 De 0 0 15 0 800000
 Po 0 103000 28750 102800 28750 100 -1
@@ -3167,9 +3167,9 @@ De 15 0 25 0 0
 Po 0 101500 18250 101750 18000 100 -1
 De 15 0 25 0 0
 Po 0 87500 12000 87750 12000 500 -1
-De 0 0 26 0 400800
+De 0 0 26 0 400000
 Po 0 87750 12000 90500 9000 500 -1
-De 0 0 26 0 800400
+De 0 0 26 0 800000
 Po 0 79000 31250 79000 33000 100 -1
 De 0 0 27 0 400800
 Po 0 79000 33000 78500 33500 100 -1
