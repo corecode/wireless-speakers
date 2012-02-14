@@ -9,8 +9,8 @@
 	~SCAN		PC1	out
 	~AMP_SLEEP	PC2	out
 	~AMP_MUTE	PC3	out
-	SDA		PC4	TWI
-	SCL		PC5	TWI
+	SDA			PC4	TWI
+	SCL			PC5	TWI
 
 
 ## Plan of operation
@@ -27,6 +27,7 @@ trigger SCAN N times to reach programmed channel
 debounce buttons
 
 if !`IN_SEL`: if !`TUNED`, set `AMP_MUTE`, else clear `AMP_MUTE`
+
 if `IN_SEL` changes, change channel selection on TDA; if `IN_SEL`, clear `AMP_MUTE`
 
 
